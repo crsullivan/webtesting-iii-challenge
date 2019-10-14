@@ -1,4 +1,8 @@
 import React from 'react';
+// import 'jest-dom/extend-expect';
+// import * as rtl from 'react-testing-library';
+// afterEach(rtl.cleanup)
+
 
 const Controls = props => {
   const { locked, closed, toggleLocked, toggleClosed } = props;
