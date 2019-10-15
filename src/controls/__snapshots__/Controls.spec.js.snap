@@ -1,19 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Controls /> should match snapshot 1`] = `
-<div
-  className="controls panel"
->
-  <button
-    className="toggle-btn"
-    disabled={true}
-  >
-    Lock Gate
-  </button>
-  <button
-    className="toggle-btn"
-  >
-    Close Gate
-  </button>
-</div>
+exports[`Controls renders correctly 1`] = `
+<body>
+  <div>
+    <div
+      class="controls panel"
+    >
+      <button
+        class="toggle-btn"
+        disabled=""
+      >
+        Lock Gate
+      </button>
+      <button
+        class="toggle-btn"
+      >
+        Close Gate
+      </button>
+    </div>
+  </div>
+</body>
 `;
